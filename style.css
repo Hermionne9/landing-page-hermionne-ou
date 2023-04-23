@@ -1,0 +1,244 @@
+/* Write some CSS below */
+
+body {
+  background: linear-gradient(90deg, rgba(226,209,195,1) 35%, rgba(253,252,251,1) 100%);  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 3px;
+}
+
+h1, h2, h3 {
+  font-family: 'Aboreto';
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  margin-left: 700px;
+}
+
+.h1-banniere-2{
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin-left: -700px;
+}
+
+
+.banner {
+  background-image: url('images/fond-banniere.png');
+  background-position: center ;
+  background-size: cover;
+  padding: 250px 0;
+  margin-top: -20px;
+  text-align: left;
+}
+
+
+#p-bannière{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: 'Aboreto';
+  margin-left: 750px;
+  margin-bottom: 70px;
+}
+
+.prix{
+  color: #000000;
+  font-size: 32px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+ font-size: 22px;
+ text-align: center;
+
+}
+
+.p-types-de-cheveux{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.bouton-shopper{
+  background-color: #e2d1c300;
+   color: rgb(0, 0, 0);
+   border-radius: 0px;
+   border: 1px solid #000000;
+   padding: 15px 20px;
+   margin-left: 830px;
+   font-size: 15px;
+   font-weight: 600;
+   letter-spacing: 5px;
+}
+
+.bouton-shopper:hover{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  margin-top: 50px;
+}
+
+.card-clear {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 25px;
+  padding-bottom: 50px;
+  box-shadow: 0 10px 20px rgba(235, 152, 43, 0.113);
+  margin: 8px;
+  border-radius: 5px;
+}
+
+.card-clear img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.card-clear:hover{
+  box-shadow: 0 10px 20px rgba(156, 88, 0, 0.318);
+}
+
+.card-clear-ventes{
+  background-color: rgba(255, 255, 255, 0);
+  padding: 25px 10px;
+  padding-bottom: 50px;
+  box-shadow: 0 10px 20px rgba(235, 152, 43, 0.113);
+  margin: 8px;
+  border-radius: 5px;
+}
+
+.card-clear-ventes img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.card-clear-ventes:hover{
+  box-shadow: 0 10px 20px rgba(156, 88, 0, 0.318);
+}
+
+.bouton-produits{
+  text-decoration: none;
+  color :#ffffff;
+  background-color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Aboreto'; 
+  text-align:center;
+  padding: 10px 20px; 
+  margin: 30px;
+  margin-left: 50px;
+}
+
+
+.bouton-ventes{
+  text-decoration: none;
+  color :#ffffff;
+  background-color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Aboreto'; 
+  text-align:center;
+  padding: 10px 20px; 
+  margin: 30px;
+  margin-left: 45px;
+}
+
+.bouton-ventes:hover{
+  box-shadow: 0 10px 20px #ffc16f7c;
+}
+
+#cards-inline{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+#cards-inline-ventes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.footer{
+  color: rgb(0, 0, 0);
+  padding: 40px 0;
+  background-image: url('images/fond-footer.png');
+}
+
+.footer img{
+  width: fit-content;
+}
+
+.p-contact{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.titre-footer{
+  color: #000000;
+  text-align: left;
+}
+
+.bouton-contact{
+  color: #000000;
+  padding: 15px 52px;
+  font-family: 'Aboreto';
+  background-color: #00000000;
+  font-size: 15px;
+  font-weight: 700;
+  text-align:center;
+  border: 1px solid #000000;
+
+}
+
+.bouton-contact:hover{
+  box-shadow: 0 10px 20px rgba(156, 88, 0, 0.318);
+}
+
+.list-inline li{
+  display: inline;
+}
+
+.list-inline li:hover{
+  text-shadow: 5px 20px 20px rgba(54, 31, 0, 0.336);
+}
+
+.list-inline-paiement li{
+  display: inline;
+}
+
+
+.icones-reseaux-sociaux{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.icones-paiement{
+  margin-top: 50px;
+  margin-left: -20px;
+}
+
+.fa-brands{
+  font-size: 30px;
+  padding-right: 10px;
+}
